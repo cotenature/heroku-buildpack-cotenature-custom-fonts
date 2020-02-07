@@ -1,0 +1,10 @@
+#!/bin/sh
+#
+# Does this buildpack apply to this application?
+#
+# Called by Heroku:
+# bin/detect BUILD_DIR
+#
+
+echo "Custom Fonts"
+exit 0
